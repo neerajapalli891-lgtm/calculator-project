@@ -1,0 +1,95 @@
+ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #1f1f1f, #222);
+}
+
+.profile-pic {
+  width: 140px;
+  border-radius: 50%;
+  border: 4px solid #00adb5;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 50px;
+  color: #00adb5;
+}
+
+header p {
+  font-size: 22px;
+  margin: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #00adb5;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+  color: #00adb5;
+}
+
+section {
+  padding: 50px 10%;
+}
+
+h2 {
+  color: #00adb5;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.skill-box {
+  background: #222;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.skill-box:hover {
+  background: #00adb5;
+  transform: scale(1.05);
+}
+
+.project-card {
+  background: #222;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background: #00adb5;
+}
+
+.contact p {
+  margin: 10px 0;
+  font-size: 18px;
+}
